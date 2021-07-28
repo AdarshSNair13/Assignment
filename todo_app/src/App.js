@@ -61,11 +61,11 @@ function deleteTodo(key){
       <h1>Task  🚀!</h1>
       <form>
         <FormControl>
-          <InputLabel>✅ Write A Todo</InputLabel>
+          <InputLabel>✅ Write A Task</InputLabel>
           <Input value={input} onChange={event => setInput(event.target.value)} />
         </FormControl>
         <Button disabled={!input}  type="submit" onClick={addTodo} variant="contained" color="primary">
-        Add Todo
+        Add Task
         </Button>
       </form>
 
